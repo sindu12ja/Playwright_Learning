@@ -49,6 +49,10 @@ playwright_learning/
 │   ├── VS_Code_keyboard_shortcut_mac.md
 │   └── VS_Keyboard_Shortcuts.js
 │
+├── Chapter_04_Javascript_Concepts/
+│   ├── 16_hoisting.js
+│   └── 17_hoisting_functions.js
+│
 └── README.md
 ```
 
@@ -201,6 +205,24 @@ Comprehensive keyboard shortcuts reference for maximum productivity.
 
 ---
 
+### Chapter 04: Advanced JavaScript Concepts
+Deeper dive into JavaScript hoisting and advanced concepts.
+
+| File | Description | Topics |
+|------|-------------|--------|
+| `16_hoisting.js` | Understanding variable hoisting | Hoisting behavior, temporal dead zone |
+| `17_hoisting_functions.js` | Function hoisting and declaration types | Function declarations vs expressions |
+
+**What You'll Learn:**
+- ✅ How variable hoisting works in JavaScript
+- ✅ Temporal Dead Zone (TDZ)
+- ✅ Differences between var, let, and const hoisting
+- ✅ Function hoisting behavior
+- ✅ Function declarations vs function expressions
+- ✅ Best practices for avoiding hoisting issues
+
+---
+
 ## 💻 Usage
 
 ### Running JavaScript Files
@@ -236,9 +258,14 @@ cat chapter_03_Identifier_Literals/VS_Code_keyboard_shortcut_mac.md
    - Master naming conventions (file 07)
    - Understand best practices
 
-3. **Reference Chapter 03: Tools**
+3. **Progress to Chapter 03: Tools**
    - Use VS Code shortcuts to speed up development
    - Bookmark the keyboard shortcuts for quick lookup
+
+4. **Advance to Chapter 04: Advanced JavaScript Concepts**
+   - Master hoisting behavior
+   - Understand variable and function hoisting
+   - Learn best practices for avoiding hoisting pitfalls
 
 ---
 
@@ -380,6 +407,8 @@ Contributions are welcome! Please follow these steps:
 | `06_Identifier_Rules.js` | JavaScript | 241 | Identifier rules with 50+ examples |
 | `07_Identifier_Part2.js` | JavaScript | 231 | 10 naming conventions |
 | `08_Comments.js` | JavaScript | 0 | Comment practices |
+| `16_hoisting.js` | JavaScript | TBD | Variable hoisting concepts |
+| `17_hoisting_functions.js` | JavaScript | TBD | Function hoisting behavior |
 | `VS_Code_keyboard_shortcut_windows.md` | Markdown | 345 | 140+ Windows shortcuts |
 | `VS_Code_keyboard_shortcut_mac.md` | Markdown | 346 | 140+ macOS shortcuts |
 | `VS_Keyboard_Shortcuts.js` | JavaScript | 550+ | Visual Studio shortcuts |
@@ -437,10 +466,10 @@ node chapter_02_Javascript_concepts/07_Identifier_Part2.js
 ## 📊 Repository Stats
 
 - **Languages**: JavaScript, Markdown
-- **Total Files**: 8+
+- **Total Files**: 10+
 - **Total Lines of Code**: 1,765+
-- **Chapters**: 3
-- **Sections**: 12+
+- **Chapters**: 4
+- **Sections**: 14+
 - **Code Examples**: 50+
 - **Keyboard Shortcuts**: 280+
 - **Naming Conventions**: 10+
@@ -449,7 +478,14 @@ node chapter_02_Javascript_concepts/07_Identifier_Part2.js
 
 ## 🔄 Recent Updates
 
-### Latest Commit (June 8, 2026)
+### Latest Commit (June 13, 2026)
+- Added Chapter 04: Advanced JavaScript Concepts
+- Added hoisting.js (variable hoisting concepts)
+- Added hoisting_functions.js (function hoisting behavior)
+- Updated repository structure with new chapter
+- Enhanced learning pathway with advanced concepts
+
+### Previous Updates (June 8, 2026)
 - Added JavaScript learning materials
 - Added comprehensive naming conventions guide
 - Added VS Code shortcuts for Windows (140+ shortcuts)
@@ -520,8 +556,8 @@ If you found this repository helpful:
 
 ---
 
-**Last Updated**: June 8, 2026
+**Last Updated**: June 13, 2026
 **Repository**: https://github.com/sindu12ja/Playwright_Learning
-**Version**: 1.0.0
+**Version**: 1.1.0
 
 Happy Learning! 🚀
